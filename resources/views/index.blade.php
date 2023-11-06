@@ -36,7 +36,7 @@
                     </div>
 
                     <hr>
-                    @if ($comments != empty($comments))
+                    {{-- @if ($comments != empty($comments))
                          @forelse ($comments as $index => $comment)
                             <div class="card shadow shadow-primary bg-transparent mb-2">
                                 <div class="card-header bg-transparent">
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         @endforelse
-                    @endif
+                    @endif --}}
 
 
 
